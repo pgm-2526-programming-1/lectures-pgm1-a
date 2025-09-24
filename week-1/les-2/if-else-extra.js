@@ -35,3 +35,7 @@ if (age >= 18 || hasLicense === true) {
   // geen van beide geeft true
   console.log("Deze persoon mag NIET met de auto rijden");
 }
+
+if (!hasLicense) {
+  console.log("Geen rijbewijs");
+}
