@@ -10,6 +10,14 @@ console.log(currentCourse);
 console.log(currentCourse === "Programming 1");
 console.log(3 > 2);
 
+/*Logical operators
+
+&& (AND) -> Beide voorwaarden moeten true zijn 
+|| (OR) -> 1 van de voorwaarden is true 
+! (NOT) -> Omgekeerde waarde 
+
+*/
+
 const age = 20;
 const hasLicense = false;
 
