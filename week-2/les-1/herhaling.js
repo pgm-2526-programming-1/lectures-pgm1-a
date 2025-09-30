@@ -15,3 +15,13 @@ if (isDocent && name === "Michael") {
 } else {
   console.log(`${name} is geen docent of geen docent Programming 1`);
 }
+
+if (isDocent) {
+  if (name === "Michael") {
+    console.log(`${name} is docent Programming 1`);
+  } else {
+    console.log(`${name} is docent van een ander vak`);
+  }
+} else {
+  console.log(`${name} is geen docent`);
+}
