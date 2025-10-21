@@ -1,4 +1,4 @@
-// IIFE -> I... Invoked Function Expression
+// IIFE -> Immediately Invoked Function Expression
 (() => {
   const number = 10;
 
