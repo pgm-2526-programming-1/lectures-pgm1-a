@@ -1,0 +1,40 @@
+.btn-win {
+  position: absolute;
+  background: red;
+  padding: 1rem;
+}
+
+.rectangle {
+  width: 10rem;
+  height: 10rem;
+  background-color: #ffc110;
+
+  position: fixed;
+
+  cursor: pointer;
+  transition: transform 0.1s ease-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.rectangle:nth-child(1) {
+  left: 10vw;
+  top: 30vh;
+}
+
+.rectangle:nth-child(2) {
+  left: 40vw;
+  top: 10vh;
+}
+
+.rectangle:nth-child(3) {
+  left: 2vw;
+  top: 70vh;
+}
+
+.rectangle:nth-child(4) {
+  left: 80vw;
+  top: 20vh;
+}
