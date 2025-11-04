@@ -1,0 +1,17 @@
+.circle {
+  width: 20vw;
+  height: 20vw;
+  background-color: blue;
+  border-radius: 50%;
+
+  position: fixed;
+  left: calc(50% - 10vw);
+  top: calc(50% - 10vw);
+
+  transition: all 0.2s ease-in-out;
+}
+
+.circle.alternative {
+  border-radius: 0;
+  background-color: red;
+}
